@@ -29,39 +29,26 @@
     ></script>
     <!-- My Stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Convite</title>
+    <title>Document</title>
   </head>
   <body>
-    <canvas id="confetti-canvas"></canvas>
-    <div class="container-fluid row main-container col-md-8">
-      <div class="col-md-6">
-        <div id="photo">
-          <img src="./img/lolinha.jpg" class="img-fluid" />
+    <section class="container-fluid main-container col-10">
+      <form class="text-center">
+        <div>
+          <label for="passcode" class="form-label"> Senha do convite </label>
+          <input
+            id="passcode"
+            name="passcode"
+            type="text"
+            class="form-control form-control-lg text-center"
+            placeholder="Digite a senha"
+          />
         </div>
-      </div>
-      <main class="col-md-6 message-box">
-        <h4 class="text-center">Festa de 5 anos da</h4>
-        <h2 class="display-2 text-center"><i class="fa-solid fa-star"></i> Laura <i class="fa-solid fa-star"></i></h2>
-        <div id="description" class="text-center fs-5">
-          <p>
-            Você está convidado para participar da festa de aniversário de 5
-            anos da Laura!
-          </p>
-          <p>
-            A festa será no dia 06/08, às 14h.
-            <br />
-            Onde? Rua Paracaima, 216, Pechincha - Jacarepaguá.
-          </p>
-          <p>
-            Estaremos esperando!
-            <br />
-            <br />
-            <i class="fa-solid fa-cake-candles cake"></i>
-          </p>
-        </div>
-      </main>
-    </div>
-    <script src="./confetti_animation/confetti.js"></script>
+        <br />
+        <button type="button" class="btn btn-primary" disabled>Abrir Convite <i class="fa-solid fa-envelope"></i></button>
+      </form>
+    </section>
+
     <script src="./script.js"></script>
   </body>
 </html>

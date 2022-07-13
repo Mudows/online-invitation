@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+* {
+  font-family: "Mali", cursive;
+}
+
+h2 {
+  font-family: "Patrick Hand", cursive;
+  color: #cc99ff;
+  text-shadow: -2px 2px 3px black;
+}
+
+body {
+  background-image: url("../img/mermaid.jpg");
+}
+
+.main-container {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  padding-top: 6em;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px 3px #cc99ff;
+  margin-bottom: 1em;
+}
+
+.message-box {
+  background-color: rgba(18, 169, 106, 0.5);
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.cake {
+  font-size: 52pt;
+  color: #cc99ff;
+  text-shadow: -2px 2px 3px black;
+}
+
+#confetti-canvas {
+  position: absolute;
+  margin-top: -100px;
+  z-index: 999999;
+  pointer-events: none;
+}
+
+/*# sourceMappingURL=style.css.map */
